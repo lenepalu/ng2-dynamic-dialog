@@ -2,7 +2,7 @@
     "compileOnSave": true,
     "compilerOptions": {
         "target": "es5",
-        "rootDir": "src/ng2-dynamic-dialog",
+        "rootDir": "src",
         "module": "commonjs",
         "moduleResolution": "node",
         "sourceMap": true,
