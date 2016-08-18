@@ -1,3 +1,5 @@
+
+// Set the default file extension
 System.config({
 
     packages: {
@@ -5,8 +7,12 @@ System.config({
     }
 });
 
-// #3. Import the spec file explicitly
-System.import('src/ng2-dynamic-dialog/utilities/lerp.spec')
+// Import our test files
+Promise.all([
+    System.import('src/ng2-dynamic-dialog/utilities/lerp.spec'),
+    System.import('src/ng2-dynamic-dialog/utilities/intervals.spec')
+])
 
+// Trigger our test events/**/
     .then(window.onload)
     .catch(console.error.bind(console));

@@ -11,7 +11,7 @@ export class Ng2DynamicDialogIntervals {
     private intervalCallback: any = null;
 
     // Constants
-    private static get DEFAULT_MILLISECOND_INTERVAL(): number { return 33; }
+    static get DEFAULT_MILLISECOND_INTERVAL(): number { return 33; }
 
     //
     // Triggers the interval update to start

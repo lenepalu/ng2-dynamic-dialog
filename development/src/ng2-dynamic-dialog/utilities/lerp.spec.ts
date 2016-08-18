@@ -81,8 +81,6 @@ describe('Ng2DynamicDialogLerp', () => {
 
     });
 
-
-
     // ----------------------------------------------------------------------
     it('Multiple Lerps - Result contains numbers and result', () => {
 
