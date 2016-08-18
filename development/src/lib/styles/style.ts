@@ -37,7 +37,7 @@ export class Ng2DynamicDialogStyle {
     titleFontStyle = 'normal';
 
     // Other buttons
-    closeButtonImage: string;
+    closeButtonImage: string = null;
 
     // Transitions
     transitionTimeDialogs: number = 0.3;

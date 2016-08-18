@@ -1,7 +1,7 @@
 import { Ng2DynamicDialogIntervals } from '../../lib/utilities/intervals';
 
 // Lerp tests
-describe('Ng2DynamicDialogLerp', () => {
+describe('Ng2DynamicDialogIntervals', () => {
 
     // ----------------------------------------------------------------------
     it('Intervals - Interval is not triggered instantly', () => {
