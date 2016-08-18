@@ -1,18 +1,24 @@
-import { Ng2DynamicDialogLerp } from './lerp';
-
-// Define some default objects
-let StartValue1 = 0;
-let EndValue1 = 100;
-
-let StartValue2 = 10;
-let EndValue2 = 30;
-
-let Duration = 10;
-
-let lerp: Ng2DynamicDialogLerp = new Ng2DynamicDialogLerp();
+import { Ng2DynamicDialogLerp } from '../../lib/utilities/lerp';
 
 // Lerp tests
 describe('Ng2DynamicDialogLerp', () => {
+
+    // Define some default objects
+    let StartValue1 = 0;
+    let EndValue1 = 100;
+
+    let StartValue2 = 10;
+    let EndValue2 = 30;
+
+    let Duration = 10;
+
+    let lerp: Ng2DynamicDialogLerp = new Ng2DynamicDialogLerp();
+
+    // ----------------------------------------------------------------------
+    beforeEach(() => {
+        // Start with a new lerp instance
+        lerp = new Ng2DynamicDialogLerp();
+    });
 
     // ----------------------------------------------------------------------
     it('Single Lerps - Result contains number and result', () => {

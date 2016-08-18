@@ -1,4 +1,4 @@
-import { Ng2DynamicDialogIntervals } from './intervals';
+import { Ng2DynamicDialogIntervals } from '../../lib/utilities/intervals';
 
 // Lerp tests
 describe('Ng2DynamicDialogLerp', () => {
@@ -124,8 +124,6 @@ describe('Ng2DynamicDialogLerp', () => {
                 done();
             } catch (err) {
             }
-
-
         }, Ng2DynamicDialogIntervals.DEFAULT_MILLISECOND_INTERVAL);
     });
 });
